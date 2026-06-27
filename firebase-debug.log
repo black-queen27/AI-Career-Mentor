@@ -1,0 +1,105 @@
+[debug] [2026-06-11T08:41:21.210Z] ----------------------------------------------------------------------
+[debug] [2026-06-11T08:41:21.215Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\anbus\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2026-06-11T08:41:21.215Z] CLI Version:   15.20.0
+[debug] [2026-06-11T08:41:21.215Z] Platform:      win32
+[debug] [2026-06-11T08:41:21.216Z] Node Version:  v24.12.0
+[debug] [2026-06-11T08:41:21.216Z] Time:          Thu Jun 11 2026 14:11:21 GMT+0530 (India Standard Time)
+[debug] [2026-06-11T08:41:21.216Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\AI-Career-Mentor
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] 
+[debug] [2026-06-11T08:42:11.209Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-06-11T08:42:11.210Z] > authorizing via signed-in user (sharini.28it@licet.ac.in)
+[debug] [2026-06-11T08:42:11.214Z] Checked if tokens are valid: true, expires at: 1781170846176
+[debug] [2026-06-11T08:42:11.215Z] Checked if tokens are valid: true, expires at: 1781170846176
+[debug] [2026-06-11T08:42:11.217Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2026-06-11T08:42:12.248Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2026-06-11T08:42:12.248Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] 
+=== Dataconnect Setup
+[info] i  dataconnect: ensuring required API firebasedataconnect.googleapis.com is enabled... 
+[debug] [2026-06-11T08:42:18.711Z] Checked if tokens are valid: true, expires at: 1781170846176
+[debug] [2026-06-11T08:42:18.711Z] Checked if tokens are valid: true, expires at: 1781170846176
+[info] i  dataconnect: ensuring required API sqladmin.googleapis.com is enabled... 
+[debug] [2026-06-11T08:42:18.713Z] Checked if tokens are valid: true, expires at: 1781170846176
+[debug] [2026-06-11T08:42:18.713Z] Checked if tokens are valid: true, expires at: 1781170846176
+[debug] [2026-06-11T08:42:18.713Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/airesume2007/services/firebasedataconnect.googleapis.com [none]
+[debug] [2026-06-11T08:42:18.713Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/airesume2007/services/firebasedataconnect.googleapis.com  x-goog-user-project=airesume2007
+[debug] [2026-06-11T08:42:18.717Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/airesume2007/services/sqladmin.googleapis.com [none]
+[debug] [2026-06-11T08:42:18.718Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/airesume2007/services/sqladmin.googleapis.com  x-goog-user-project=airesume2007
+[debug] [2026-06-11T08:42:25.244Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/airesume2007/services/firebasedataconnect.googleapis.com 200
+[debug] [2026-06-11T08:42:25.245Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/airesume2007/services/firebasedataconnect.googleapis.com [omitted]
+[warn] !  dataconnect: missing required API firebasedataconnect.googleapis.com. Enabling now... 
+[debug] [2026-06-11T08:42:25.246Z] Checked if tokens are valid: true, expires at: 1781170846176
+[debug] [2026-06-11T08:42:25.246Z] Checked if tokens are valid: true, expires at: 1781170846176
+[debug] [2026-06-11T08:42:25.246Z] >>> [apiv2][query] POST https://serviceusage.googleapis.com/v1/projects/airesume2007/services/firebasedataconnect.googleapis.com:enable [none]
+[debug] [2026-06-11T08:42:25.246Z] >>> [apiv2][(partial)header] POST https://serviceusage.googleapis.com/v1/projects/airesume2007/services/firebasedataconnect.googleapis.com:enable  x-goog-user-project=airesume2007
+[debug] [2026-06-11T08:42:25.450Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/airesume2007/services/sqladmin.googleapis.com 200
+[debug] [2026-06-11T08:42:25.450Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/airesume2007/services/sqladmin.googleapis.com [omitted]
+[warn] !  dataconnect: missing required API sqladmin.googleapis.com. Enabling now... 
+[debug] [2026-06-11T08:42:25.451Z] Checked if tokens are valid: true, expires at: 1781170846176
+[debug] [2026-06-11T08:42:25.451Z] Checked if tokens are valid: true, expires at: 1781170846176
+[debug] [2026-06-11T08:42:25.451Z] >>> [apiv2][query] POST https://serviceusage.googleapis.com/v1/projects/airesume2007/services/sqladmin.googleapis.com:enable [none]
+[debug] [2026-06-11T08:42:25.451Z] >>> [apiv2][(partial)header] POST https://serviceusage.googleapis.com/v1/projects/airesume2007/services/sqladmin.googleapis.com:enable  x-goog-user-project=airesume2007
+[debug] [2026-06-11T08:42:26.985Z] <<< [apiv2][status] POST https://serviceusage.googleapis.com/v1/projects/airesume2007/services/firebasedataconnect.googleapis.com:enable 200
+[debug] [2026-06-11T08:42:26.986Z] <<< [apiv2][body] POST https://serviceusage.googleapis.com/v1/projects/airesume2007/services/firebasedataconnect.googleapis.com:enable [omitted]
+[debug] [2026-06-11T08:42:27.291Z] <<< [apiv2][status] POST https://serviceusage.googleapis.com/v1/projects/airesume2007/services/sqladmin.googleapis.com:enable 200
+[debug] [2026-06-11T08:42:27.292Z] <<< [apiv2][body] POST https://serviceusage.googleapis.com/v1/projects/airesume2007/services/sqladmin.googleapis.com:enable [omitted]
+[debug] [2026-06-11T08:42:37.308Z] Checked if tokens are valid: true, expires at: 1781170846176
+[debug] [2026-06-11T08:42:37.309Z] Checked if tokens are valid: true, expires at: 1781170846176
+[debug] [2026-06-11T08:42:37.309Z] >>> [apiv2][query] GET https://firebasedataconnect.googleapis.com/v1/projects/airesume2007/locations/-/services [none]
+[debug] [2026-06-11T08:42:39.580Z] <<< [apiv2][status] GET https://firebasedataconnect.googleapis.com/v1/projects/airesume2007/locations/-/services 200
+[debug] [2026-06-11T08:42:39.580Z] <<< [apiv2][body] GET https://firebasedataconnect.googleapis.com/v1/projects/airesume2007/locations/-/services {}
+[debug] [2026-06-11T08:43:01.853Z] Checked if tokens are valid: true, expires at: 1781170846176
+[debug] [2026-06-11T08:43:01.853Z] Checked if tokens are valid: true, expires at: 1781170846176
+[debug] [2026-06-11T08:43:01.853Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/airesume2007/billingInfo [none]
+[debug] [2026-06-11T08:43:03.851Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/airesume2007/billingInfo 200
+[debug] [2026-06-11T08:43:03.851Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/airesume2007/billingInfo {"name":"projects/airesume2007/billingInfo","projectId":"airesume2007","billingAccountName":"","billingEnabled":false}
+[debug] [2026-06-11T08:43:03.852Z] Checked if tokens are valid: true, expires at: 1781170846176
+[debug] [2026-06-11T08:43:03.852Z] Checked if tokens are valid: true, expires at: 1781170846176
+[debug] [2026-06-11T08:43:03.852Z] >>> [apiv2][query] GET https://monitoring.googleapis.com/v3/projects/airesume2007/timeSeries/ filter=metric.type%3D%22serviceruntime.googleapis.com%2Fquota%2Fallocation%2Fusage%22+AND+metric.label.quota_metric+%3D+%22sqladmin.googleapis.com%2Ffdc_lifetime_free_trial_per_project%22&interval.endTime=2026-06-11T08%3A43%3A03.851Z&interval.startTime=2026-06-04T08%3A43%3A03.851Z
+[debug] [2026-06-11T08:43:05.387Z] <<< [apiv2][status] GET https://monitoring.googleapis.com/v3/projects/airesume2007/timeSeries/ 200
+[debug] [2026-06-11T08:43:05.387Z] <<< [apiv2][body] GET https://monitoring.googleapis.com/v3/projects/airesume2007/timeSeries/ {"unit":"1"}
+[info] +  dataconnect: CloudSQL no cost trial available! 
+[debug] [2026-06-11T08:43:05.388Z] Checked if tokens are valid: true, expires at: 1781170846176
+[debug] [2026-06-11T08:43:05.388Z] Checked if tokens are valid: true, expires at: 1781170846176
+[debug] [2026-06-11T08:43:05.389Z] >>> [apiv2][query] GET https://sqladmin.googleapis.com/v1/projects/airesume2007/instances [none]
+[debug] [2026-06-11T08:43:06.923Z] <<< [apiv2][status] GET https://sqladmin.googleapis.com/v1/projects/airesume2007/instances 200
+[debug] [2026-06-11T08:43:06.923Z] <<< [apiv2][body] GET https://sqladmin.googleapis.com/v1/projects/airesume2007/instances {}
+[debug] [2026-06-11T08:43:06.924Z] Checked if tokens are valid: true, expires at: 1781170846176
+[debug] [2026-06-11T08:43:06.924Z] Checked if tokens are valid: true, expires at: 1781170846176
+[debug] [2026-06-11T08:43:06.925Z] >>> [apiv2][query] GET https://firebasedataconnect.googleapis.com/v1/projects/airesume2007/locations [none]
+[debug] [2026-06-11T08:43:08.776Z] <<< [apiv2][status] GET https://firebasedataconnect.googleapis.com/v1/projects/airesume2007/locations 200
+[debug] [2026-06-11T08:43:08.777Z] <<< [apiv2][body] GET https://firebasedataconnect.googleapis.com/v1/projects/airesume2007/locations {"locations":[{"name":"projects/airesume2007/locations/asia-east1","locationId":"asia-east1","displayName":"Taiwan"},{"name":"projects/airesume2007/locations/asia-east2","locationId":"asia-east2","displayName":"Hong Kong"},{"name":"projects/airesume2007/locations/asia-northeast1","locationId":"asia-northeast1","displayName":"Tokyo"},{"name":"projects/airesume2007/locations/asia-northeast2","locationId":"asia-northeast2","displayName":"Osaka"},{"name":"projects/airesume2007/locations/asia-northeast3","locationId":"asia-northeast3","displayName":"Seoul"},{"name":"projects/airesume2007/locations/asia-south1","locationId":"asia-south1","displayName":"Mumbai"},{"name":"projects/airesume2007/locations/asia-southeast1","locationId":"asia-southeast1","displayName":"Singapore"},{"name":"projects/airesume2007/locations/asia-southeast2","locationId":"asia-southeast2","displayName":"Jakarta"},{"name":"projects/airesume2007/locations/australia-southeast1","locationId":"australia-southeast1","displayName":"Sydney"},{"name":"projects/airesume2007/locations/australia-southeast2","locationId":"australia-southeast2","displayName":"Melbourne"},{"name":"projects/airesume2007/locations/europe-central2","locationId":"europe-central2","displayName":"Warsaw"},{"name":"projects/airesume2007/locations/europe-north1","locationId":"europe-north1","displayName":"Finland"},{"name":"projects/airesume2007/locations/europe-southwest1","locationId":"europe-southwest1","displayName":"Madrid"},{"name":"projects/airesume2007/locations/europe-west1","locationId":"europe-west1","displayName":"Belgium"},{"name":"projects/airesume2007/locations/europe-west2","locationId":"europe-west2","displayName":"London"},{"name":"projects/airesume2007/locations/europe-west3","locationId":"europe-west3","displayName":"Frankfurt"},{"name":"projects/airesume2007/locations/europe-west4","locationId":"europe-west4","displayName":"Netherlands"},{"name":"projects/airesume2007/locations/europe-west6","locationId":"europe-west6","displayName":"Zurich"},{"name":"projects/airesume2007/locations/europe-west8","locationId":"europe-west8","displayName":"Milan"},{"name":"projects/airesume2007/locations/europe-west9","locationId":"europe-west9","displayName":"Paris"},{"name":"projects/airesume2007/locations/me-west1","locationId":"me-west1","displayName":"Tel Aviv"},{"name":"projects/airesume2007/locations/northamerica-northeast1","locationId":"northamerica-northeast1","displayName":"Montréal"},{"name":"projects/airesume2007/locations/northamerica-northeast2","locationId":"northamerica-northeast2","displayName":"Toronto"},{"name":"projects/airesume2007/locations/southamerica-east1","locationId":"southamerica-east1","displayName":"São Paulo"},{"name":"projects/airesume2007/locations/southamerica-west1","locationId":"southamerica-west1","displayName":"Santiago"},{"name":"projects/airesume2007/locations/us-central1","locationId":"us-central1","displayName":"Iowa"},{"name":"projects/airesume2007/locations/us-east1","locationId":"us-east1","displayName":"South Carolina"},{"name":"projects/airesume2007/locations/us-east4","locationId":"us-east4","displayName":"Northern Virginia"},{"name":"projects/airesume2007/locations/us-south1","locationId":"us-south1","displayName":"Dallas"},{"name":"projects/airesume2007/locations/us-west1","locationId":"us-west1","displayName":"Oregon"},{"name":"projects/airesume2007/locations/us-west2","locationId":"us-west2","displayName":"Los Angeles"},{"name":"projects/airesume2007/locations/us-west3","locationId":"us-west3","displayName":"Salt Lake City"},{"name":"projects/airesume2007/locations/us-west4","locationId":"us-west4","displayName":"Las Vegas"}]}
+[debug] [2026-06-11T08:43:25.448Z] ExitPromptError: User force closed the prompt with SIGINT
+    at Interface.sigint (C:\Users\anbus\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\@inquirer\core\dist\commonjs\lib\create-prompt.js:101:37)
+    at Interface.emit (node:events:508:28)
+    at [_ttyWrite] [as _ttyWrite] (node:internal/readline/interface:1327:18)
+    at ReadStream.onkeypress (node:internal/readline/interface:284:20)
+    at ReadStream.emit (node:events:520:35)
+    at emitKeys (node:internal/readline/utils:371:14)
+    at emitKeys.next (<anonymous>)
+    at ReadStream.onData (node:internal/readline/emitKeypressEvents:64:36)
+    at ReadStream.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+[error] 
+[error] Error: An unexpected error has occurred.
