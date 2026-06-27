@@ -17,19 +17,19 @@ deployment) for persistence where applicable.
 
 # Features
 
-## User Authentication
+1.## User Authentication
 
 -   Secure registration and login using Firebase Authentication.
 -   Forgot password functionality.
 -   Protected dashboard access.
 -   User profile management.
 
-## Dashboard
+2.## Dashboard
 
 The dashboard acts as the central hub of the application and provides
 navigation to every AI module through reusable action cards.
 
-## Resume Analyzer
+3.## Resume Analyzer
 
 Users upload a resume which is processed by the FastAPI backend.
 
@@ -38,7 +38,7 @@ missing skills - Suggests improvements - Generates an ATS-style report
 
 Reports can be stored and viewed later.
 
-## Resume Builder
+4.## Resume Builder
 
 Users enter professional details including: - Personal information -
 Skills - Education - Projects - Experience - Target role
@@ -49,14 +49,14 @@ wording, bullet points, summaries, and formatting.
 
 The generated resume can be previewed and downloaded as PDF.
 
-## Interview Preparation
+5.## Interview Preparation
 
 Users select a target role.
 
 The AI generates: - Frequently asked interview questions - Technical
 questions - HR questions - Suggested answers - Preparation tips
 
-## Voice Interview
+6.## Voice Interview
 
 The system simulates an interview.
 
@@ -65,11 +65,11 @@ microphone. 3. Browser records audio. 4. Audio is sent to the backend.
 5. Speech-to-text converts audio. 6. LLM evaluates answers. 7. Feedback
 and scores are generated. 8. Reports are stored for later viewing.
 
-## Interview History
+7.## Interview History
 
 Users can revisit previous interview sessions and review AI feedback.
 
-## Roadmap Generator
+8.## Roadmap Generator
 
 The AI creates a personalized learning roadmap based on the selected
 career role.
@@ -77,7 +77,7 @@ career role.
 Typical roadmap includes: - Learning path - Required technologies -
 Suggested projects - Certifications - Career progression
 
-## Report Management
+9.## Report Management
 
 Generated reports are stored and can be viewed later without repeating
 the entire analysis process.
